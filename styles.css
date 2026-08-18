@@ -1,0 +1,222 @@
+:root {
+    --primary-color: #232f3e;
+    --button-color: #f0c14b;
+    --button-hover: #ddb347;
+    --text-color: #333;
+    --bg-color: #f7f9fa;
+    --card-bg: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    opacity: 0.9;
+}
+
+.container {
+    flex: 1;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.product-image {
+    width: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.product-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #111;
+}
+
+.product-desc {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: var(--button-color);
+    color: #111;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 1px solid #a88734;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.buy-button:hover {
+    background-color: var(--button-hover);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #ccc;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
+
+/* Carousel styles */
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item.active { display: flex; }
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.35);
+    color: white;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.carousel-control.prev { left: 8px; }
+.carousel-control.next { right: 8px; }
+
+.carousel-indicators {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 8px;
+    display: flex;
+    gap: 6px;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.6);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.carousel-dot.active { background: rgba(255,255,255,0.95); }
+
+/* Responsivo */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    .container {
+        margin: 1rem auto;
+        gap: 1rem;
+        padding: 0 0.75rem;
+    }
+
+    .product-image {
+        max-width: 180px;
+        max-height: 180px;
+    }
+
+    .buy-button {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .product-card {
+        padding: 2rem;
+    }
+
+    .product-image {
+        max-height: 300px;
+    }
+
+    .buy-button {
+        width: auto;
+        align-self: center;
+        padding: 12px 26px;
+    }
+}

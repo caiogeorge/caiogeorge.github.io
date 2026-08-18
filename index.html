@@ -4,120 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhas Recomendações Amazon</title>
-    <style>
-        :root {
-            --primary-color: #232f3e; /* Cor da Amazon */
-            --button-color: #f0c14b; /* Amarelo clássico do botão da Amazon */
-            --button-hover: #ddb347;
-            --text-color: #333;
-            --bg-color: #f7f9fa;
-            --card-bg: #ffffff;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        header {
-            background-color: var(--primary-color);
-            color: white;
-            text-align: center;
-            padding: 2rem 1rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        header h1 {
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .container {
-            flex: 1;
-            max-width: 1000px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .product-card {
-            background-color: var(--card-bg);
-            border-radius: 8px;
-            padding: 1.5rem;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-        }
-
-        .product-image {
-            width: 100%;
-            max-width: 250px;
-            height: 250px;
-            object-fit: contain;
-            margin: 0 auto 1rem;
-            background-color: #f0f0f0; /* Fundo cinza para imagens transparentes */
-            border-radius: 4px;
-        }
-
-        .product-title {
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-            color: #111;
-        }
-
-        .product-desc {
-            font-size: 0.9rem;
-            color: #555;
-            margin-bottom: 1.5rem;
-            flex-grow: 1;
-        }
-
-        .buy-button {
-            display: inline-block;
-            background-color: var(--button-color);
-            color: #111;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 20px;
-            font-weight: bold;
-            border: 1px solid #a88734;
-            transition: background-color 0.2s ease;
-            width: 100%;
-        }
-
-        .buy-button:hover {
-            background-color: var(--button-hover);
-        }
-
-        footer {
-            background-color: var(--primary-color);
-            color: #ccc;
-            text-align: center;
-            padding: 1.5rem 1rem;
-            font-size: 0.8rem;
-            margin-top: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -150,6 +37,8 @@
         <p>Aviso: Como Participante Associados Amazon, sou remunerado por compras qualificadas efetuadas através dos links desta página.</p>
         <p>&copy; 2026 Minhas Recomendações.</p>
     </footer>
+
+    <script src="main.js"></script>
 
 </body>
 </html>
