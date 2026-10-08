@@ -1,0 +1,30 @@
+TUYANNE PRODUÇÕES — PRIMEIRO ESBOÇO
+
+Abra index.html no navegador. O menu leva às quatro páginas: Início, Sobre, Galeria e Contato. A pasta assets deve permanecer ao lado dos arquivos HTML.
+
+Este é um protótipo independente para avaliação e posterior implementação na Wix. Nenhuma alteração foi feita no site publicado, na hospedagem ou no domínio.
+
+IDENTIDADE VISUAL
+Logo e símbolo extraídos do PDF fornecido. Pattern e fotografias também foram extraídos do material. A galeria identifica as fotografias como referências ilustrativas: elas não foram verificadas como eventos realizados pela empresa.
+
+Paleta amostrada da página de cores do PDF: verde #2B3823, marrom #593327, terracota #834536, rosa #E1C4BB, ocre #8A592D e azul #225059. Creme de apoio #F7F3E6. O PDF menciona #0F4B3A no texto, mas a aplicação visual do verde difere; neste esboço foi priorizada a aparência da prancha.
+
+Tipografia: Montserrat nos textos. Italiana usada como substituta provisória da Boowie nos títulos, pois o PDF não inclui o arquivo original da fonte para uso no site. A logomarca mantém seu desenho original. O PDF também apresenta uma divergência entre Akayla e Montserrat Italic para subtítulos; confirmar a escolha na versão final.
+
+CONTEÚDO E CONTATOS
+Textos propostos a partir do DNA da marca, site e bio pública do Instagram; devem ser revisados pela empresa antes da publicação.
+Fontes consultadas em 08/10/2026:
+https://www.tuyanneproducoes.com/
+https://www.tuyanneproducoes.com/contato
+https://www.instagram.com/tuyanneproducoes
+
+Endereço usado conforme o rodapé: Avenida Ephigênio Salles, 1327, Sala E, BOX 567, Aleixo, Manaus, AM, CEP 69060-020. A página Contato do site atual mostra um endereço diferente; o pedido foi priorizar o rodapé.
+Telefone exibido: (92) 99461-7136.
+E-mail: contato@tuyanneproducoes.com.
+WhatsApp: https://wa.me/559294617136 — mantido exatamente como o link do rodapé. Esse link tem um dígito a menos que o telefone exibido; confirmar o destino correto antes da publicação.
+
+INTERAÇÕES
+Menu adaptável ao celular, links de contato e galeria com ampliação das imagens. Os links abrem os aplicativos correspondentes. O protótipo não envia mensagens automaticamente e não contém formulário com envio simulado.
+
+PRÓXIMA ETAPA NA WIX
+Depois da aprovação visual, reconstruir as quatro páginas no editor Wix, configurar o menu, aplicar os arquivos definitivos da marca, substituir a galeria pelo portfólio autorizado e conferir os contatos. Este HTML serve como referência visual e não é uma importação automática para o editor Wix.
