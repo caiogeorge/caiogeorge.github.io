@@ -722,3 +722,62 @@ footer {
 .footer-top .phone-line {
   margin-bottom: 7px;
 }
+
+/* Retratos e registros reais: a mesma linguagem editorial da marca. */
+.founder-profile { padding: 85px 8%; background: #eee7dc; scroll-margin-top: 30px; }
+.profile-heading { margin-bottom: 42px; }
+.profile-heading h2 { margin: 18px 0 10px; font-size: clamp(48px, 6vw, 84px); }
+.role { color: var(--clay); font-size: 14px; }
+.profile-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 9%; align-items: center; }
+.profile-layout img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 35%; }
+.profile-copy h3, .event-film h3 { font-family: Italiana, serif; font-size: clamp(34px, 3.6vw, 50px); line-height: 1.13; }
+.profile-copy p { margin-top: 22px; }
+.profile-copy .button { margin-top: 28px; }
+.event-nav { display: flex; flex-wrap: wrap; gap: 12px 30px; padding: 24px 8%; border-bottom: 1px solid var(--line); }
+.event-nav a { font-size: 13px; border-bottom: 1px solid transparent; padding: 6px 0; }
+.event-nav a:hover { border-color: var(--clay); color: var(--clay); }
+.event-story { padding: 75px 7%; scroll-margin-top: 20px; }
+.event-story:nth-of-type(odd) { background: #eee7dc; }
+.event-heading { display: grid; grid-template-columns: 65px 1fr; gap: 22px; margin-bottom: 38px; }
+.event-number { font-family: Italiana, serif; font-size: 45px; color: var(--clay); line-height: 1; padding-top: 3px; }
+.event-heading .eyebrow { color: var(--clay); }
+.event-heading h2 { margin: 18px 0 22px; }
+.event-heading p { max-width: 760px; }
+.event-context { margin-top: 20px; }
+.event-facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin: 0 0 38px; padding: 28px 0; border-block: 1px solid var(--line); }
+.event-facts dt { font-family: Italiana, serif; font-size: clamp(28px, 3vw, 42px); line-height: 1.2; }
+.event-facts dd { margin: 10px 0 0; max-width: 30ch; font-size: 13px; }
+.event-source { max-width: none; font-size: 11px; margin-top: 24px; }
+.event-source a { text-decoration: underline; text-underline-offset: 3px; }
+.event-photos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.event-photos:has(> :last-child:nth-child(2)) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.event-photos .gallery-card img { height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+.event-photos:has(> :last-child:nth-child(2)) img { aspect-ratio: 3 / 2; }
+.event-photos figcaption { color: var(--ink); opacity: 1; font-size: 13px; margin-top: 14px; }
+.gallery-card button { position: relative; }
+.zoom-hint { position: absolute; right: 12px; bottom: 12px; background: var(--cream); color: var(--green); padding: 5px 10px; font-size: 11px; }
+.event-film { display: grid; grid-template-columns: minmax(0, 360px) 1fr; gap: 8%; margin-top: 50px; align-items: center; background: var(--green); color: var(--cream); padding: 35px; }
+.event-film video { display: block; width: 100%; max-height: 540px; aspect-ratio: 9 / 16; background: #182015; object-fit: contain; }
+.event-film h3 { margin: 20px 0; }
+.event-film .eyebrow { color: var(--pink); }
+.event-film p { max-width: 38ch; }
+.event-film .film-note { margin-top: 24px; color: var(--pink); font-size: 12px; }
+@media (max-width: 1000px) {
+  .event-photos { gap: 16px; }
+}
+@media (max-width: 680px) {
+  .profile-layout, .event-film { grid-template-columns: 1fr; }
+  .founder-profile { padding: 50px 7%; }
+  .profile-layout { gap: 30px; }
+  .event-nav { padding: 20px 7%; gap: 8px 22px; }
+  .event-story { padding: 48px 7%; }
+  .event-heading { grid-template-columns: 1fr; gap: 12px; }
+  .event-number { font-size: 32px; }
+  .event-facts { grid-template-columns: 1fr; gap: 24px; }
+  .event-photos, .event-photos:has(> :last-child:nth-child(2)) { grid-template-columns: 1fr; gap: 28px; }
+  .event-photos .gallery-card img { aspect-ratio: 4 / 5; }
+  .event-photos:has(> :last-child:nth-child(2)) img { aspect-ratio: 3 / 2; }
+  .event-film { padding: 20px; gap: 28px; }
+  .event-film video { max-height: 500px; }
+  .event-film > div { padding: 8px 4px 12px; }
+}

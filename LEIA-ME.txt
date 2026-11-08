@@ -1,11 +1,16 @@
-TUYANNE PRODUÇÕES — PRIMEIRO ESBOÇO
+TUYANNE PRODUÇÕES — PROTÓTIPO ATUALIZADO
+
+ATUALIZAÇÃO DE MÍDIA — 07/11/2026
+10 fotografias, 3 quadros de vídeo e 2 vídeos curtos. A apresentação da CEO Raissa Tuyanne fica apenas no Sobre. Galeria em quatro eventos: Fórum Amazônia Viva, São João do Meu Nordeste, Genfest 2024 e Encontro da Rede. Vídeos de 12 e 16 segundos com reprodução manual. Consulte CURADORIA.md para critérios, fontes e verificações. Abra index.html para navegar; a seção da Raissa fica em sobre.html#raissa.
+
+Os arquivos necessários são os quatro HTMLs, styles.css, script.js e a pasta assets. Não incluir tmp na publicação.
 
 Abra index.html no navegador. O menu leva às quatro páginas: Início, Sobre, Galeria e Contato. A pasta assets deve permanecer ao lado dos arquivos HTML.
 
 Este é um protótipo independente para avaliação e posterior implementação na Wix. Nenhuma alteração foi feita no site publicado, na hospedagem ou no domínio.
 
 IDENTIDADE VISUAL
-Logo e símbolo extraídos do PDF fornecido. Pattern e fotografias também foram extraídos do material. A galeria identifica as fotografias como referências ilustrativas: elas não foram verificadas como eventos realizados pela empresa.
+Logo em assets/logo.svg convertido dos traços vetoriais da versão sem slogan do arquivo Vetor - Tuyanne Produções (1).pdf, em creme #F7F3E6 e com fundo transparente. Aplicado ao cabeçalho e ao rodapé das quatro páginas. O PNG anterior foi preservado como referência. Símbolo extraído do PDF fornecido. Pattern e fotografias também foram extraídos do material. As fotografias ilustrativas foram substituídas na atualização de 07/11/2026 por registros selecionados do acervo fornecido.
 
 Paleta amostrada da página de cores do PDF: verde #2B3823, marrom #593327, terracota #834536, rosa #E1C4BB, ocre #8A592D e azul #225059. Creme de apoio #F7F3E6. O PDF menciona #0F4B3A no texto, mas a aplicação visual do verde difere; neste esboço foi priorizada a aparência da prancha.
 
@@ -21,10 +26,11 @@ https://www.instagram.com/tuyanneproducoes
 Endereço usado conforme o rodapé: Avenida Ephigênio Salles, 1327, Sala E, BOX 567, Aleixo, Manaus, AM, CEP 69060-020. A página Contato do site atual mostra um endereço diferente; o pedido foi priorizar o rodapé.
 Telefone exibido: (92) 99461-7136.
 E-mail: contato@tuyanneproducoes.com.
-WhatsApp: https://wa.me/559294617136 — mantido exatamente como o link do rodapé. Esse link tem um dígito a menos que o telefone exibido; confirmar o destino correto antes da publicação.
+WhatsApp usado no protótipo: https://wa.me/5592994617136, correspondente ao telefone exibido.
 
 INTERAÇÕES
 Menu adaptável ao celular, links de contato e galeria com ampliação das imagens. Os links abrem os aplicativos correspondentes. O protótipo não envia mensagens automaticamente e não contém formulário com envio simulado.
 
 PRÓXIMA ETAPA NA WIX
-Depois da aprovação visual, reconstruir as quatro páginas no editor Wix, configurar o menu, aplicar os arquivos definitivos da marca, substituir a galeria pelo portfólio autorizado e conferir os contatos. Este HTML serve como referência visual e não é uma importação automática para o editor Wix.
+Depois da aprovação visual, reconstruir as quatro páginas no editor Wix, configurar o menu, aplicar os arquivos definitivos da marca, transferir a seleção do portfólio em assets/portfolio e conferir os contatos. Este HTML serve como referência visual e não é uma importação automática para o editor Wix.
+

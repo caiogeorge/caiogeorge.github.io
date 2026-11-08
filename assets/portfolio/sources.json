@@ -1,0 +1,160 @@
+[
+  {
+    "asset": "raissa-cafe",
+    "source": "Fotos Raissa/10.02 - Sessão de Fotos/Tuyanneproduções/DSC03062.jpg",
+    "zip": "Fotos Raissa-20261107T215529Z-1-001.zip",
+    "dimensions": [
+      3947,
+      5921
+    ]
+  },
+  {
+    "asset": "forum-equipe",
+    "source": "Imagens e Vídeos Eventos/2026/07.1 e 2 - II Fórum Amazônia Viva/DSC05169.jpg",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-004.zip",
+    "dimensions": [
+      3956,
+      5954
+    ]
+  },
+  {
+    "asset": "forum-acolhimento",
+    "source": "Imagens e Vídeos Eventos/2026/07.1 e 2 - II Fórum Amazônia Viva/DSC04996.jpg",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-002.zip",
+    "dimensions": [
+      4000,
+      6000
+    ]
+  },
+  {
+    "asset": "forum-gastronomia",
+    "source": "Imagens e Vídeos Eventos/2026/07.1 e 2 - II Fórum Amazônia Viva/DSC05461.jpg",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-009.zip",
+    "dimensions": [
+      4000,
+      4521
+    ]
+  },
+  {
+    "asset": "sao-joao-danca",
+    "source": "Imagens e Vídeos Eventos/2026/07.17 e 18 - São João do Meu Nordeste/Foto/DSC06553.jpg",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-001.zip",
+    "dimensions": [
+      4000,
+      6000
+    ]
+  },
+  {
+    "asset": "sao-joao-musica",
+    "source": "Imagens e Vídeos Eventos/2026/07.17 e 18 - São João do Meu Nordeste/Foto/DSC06417.jpg",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-001.zip",
+    "dimensions": [
+      4000,
+      6000
+    ]
+  },
+  {
+    "asset": "sao-joao-cenario",
+    "source": "Imagens e Vídeos Eventos/2026/07.17 e 18 - São João do Meu Nordeste/Foto/DSC06110.jpg",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-001.zip",
+    "dimensions": [
+      4000,
+      6000
+    ]
+  },
+  {
+    "asset": "encontro-rede-mesa",
+    "source": "Imagens e Vídeos Eventos/2025/25.08.06 Encontro da Rede/photo_5_2025-10-29_12-49-52.jpg",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-002.zip",
+    "dimensions": [
+      1280,
+      960
+    ]
+  },
+  {
+    "asset": "encontro-rede-publico",
+    "source": "Imagens e Vídeos Eventos/2025/25.08.06 Encontro da Rede/photo_8_2025-10-29_12-49-52.jpg",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-005.zip",
+    "dimensions": [
+      1280,
+      960
+    ]
+  },
+  {
+    "asset": "sao-joao-momentos.mp4",
+    "source": "Imagens e Vídeos Eventos/2026/07.17 e 18 - São João do Meu Nordeste/Vídeo/Editados/copy_6B91130D-67CA-4349-ADA2-53B67BD30DA6.mov",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-011.zip",
+    "clip": "00:00–00:12",
+    "audio": false
+  },
+  {
+    "asset": "raissa-coordenacao",
+    "source": "Imagens e Vídeos Eventos/2025/25.08.06 Encontro da Rede/photo_3_2025-10-29_12-50-54.jpg",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-008.zip",
+    "frame_seconds": null,
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "asset": "genfest-celebracao",
+    "source": "Imagens e Vídeos Eventos/2024/24.07.22 Genfest 2024/IMG_5584.mov",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-006.zip",
+    "frame_seconds": 27.9,
+    "dimensions": [
+      1080,
+      1920
+    ]
+  },
+  {
+    "asset": "genfest-publico",
+    "source": "Imagens e Vídeos Eventos/2024/24.07.22 Genfest 2024/IMG_5702.mov",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-007.zip",
+    "frame_seconds": 7.06,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "crop_xywh": [
+      0,
+      600,
+      1080,
+      1050
+    ]
+  },
+  {
+    "asset": "genfest-montagem",
+    "source": "Imagens e Vídeos Eventos/2024/24.07.22 Genfest 2024/IMG_5412.MOV",
+    "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-004.zip",
+    "frame_seconds": 3.92,
+    "dimensions": [
+      1080,
+      1920
+    ]
+  },
+  {
+    "asset": "genfest-producao.mp4",
+    "sources": [
+      {
+        "source": "Imagens e Vídeos Eventos/2024/24.07.22 Genfest 2024/IMG_5412.MOV",
+        "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-004.zip",
+        "start": 1,
+        "duration": 4
+      },
+      {
+        "source": "Imagens e Vídeos Eventos/2024/24.07.22 Genfest 2024/IMG_5702.mov",
+        "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-007.zip",
+        "start": 4,
+        "duration": 6
+      },
+      {
+        "source": "Imagens e Vídeos Eventos/2024/24.07.22 Genfest 2024/IMG_5584.mov",
+        "zip": "Imagens e Vídeos Eventos-20261107T222453Z-1-006.zip",
+        "start": 24,
+        "duration": 6
+      }
+    ],
+    "audio": false
+  }
+]
